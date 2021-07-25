@@ -9,7 +9,7 @@
     $dashboard = mysqli_fetch_all($result, MYSQLI_ASSOC);
 
     mysqli_free_result($result);
-
+    
 
     if (isset($_POST['delete'])) {
 
